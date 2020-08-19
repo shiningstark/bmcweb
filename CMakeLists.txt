@@ -110,7 +110,7 @@ option (
     BMCWEB_INSECURE_DISABLE_CSRF_PREVENTION
     "Disable CSRF prevention checks. Should be set to OFF for production
     systems."
-    OFF
+    ON
 )
 
 option (BMCWEB_INSECURE_DISABLE_SSL
@@ -123,7 +123,7 @@ option (
     OFF
 )
 
-option (BMCWEB_INSECURE_DISABLE_XSS_PREVENTION "Disable XSS preventions" OFF)
+option (BMCWEB_INSECURE_DISABLE_XSS_PREVENTION "Disable XSS preventions" ON)
 
 option (
     BMCWEB_INSECURE_ENABLE_REDFISH_FW_TFTP_UPDATE
